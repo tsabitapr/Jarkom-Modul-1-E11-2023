@@ -6,7 +6,7 @@ Laporan resmi praktikum Jaringan Komputer modul 1 kelompok E11
 | Sarah Nurhasna Khairunnisa | 5025211105 |
 | Tsabita Putri Ramadhany | 5025211130 |
 
-## Daftar Isi
+# Daftar Isi
 - [SOAL](#soal) 
 - [JAWABAN](#jawaban)
 	- [NO 1](#no-1)
