@@ -177,7 +177,17 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
     ![NC NO 7](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/ea89c2d8-f96a-4363-b3cc-4f4d1f88a978)
 
 ## NO 8
-8. 
+8. Filtering wireshark menggunakan qualifier tcp dan udp yang digunakan untuk menentukan protokol dari id. Lalu menggunakan operator or (||) untuk menghubungkan 2 primitive dalam 1 sintaks.
+   ![2](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/0bff33b9-463e-4129-9024-edd2e684d5c6)
+   
+   Menggunakan display filter **tcp.dstport == 80 || udp.dstport == 80**
+   ![1](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/81ef9a24-b57d-482f-97ca-728333af10ff)
+
+- Flag
+  ![image](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/b706e1b4-4c70-4cce-901e-5e6ef5922c65)
+  
+
+  
 
 ## NO 9
 9. Gunakan display capture **ip.src == 10.51.40.1 && ip.dst != 10.39.55.34** sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34.
