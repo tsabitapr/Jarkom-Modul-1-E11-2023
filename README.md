@@ -33,4 +33,3 @@ Laporan resmi praktikum Jaringan Komputer modul 1 kelompok E11
 
 # Jawaban
 1.
-![Kegiatan Ini Lho ITS](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/bed3bafa-ed71-4ad4-b38d-267bcf91286d)
