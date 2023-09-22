@@ -93,12 +93,13 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
 
 ## NO 4
 4. Mencari paket nomor 130 menggunakan display filter **frame.number == 130**
-   Cek User Diagram Protokol (UDP) dan ditemukan bahwa **Checksum: 0x18e5 [unverified]**   
-![NO 4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/68067ed2-4ce1-476b-913e-6be6be7fc726)
+   
+   Cek User Diagram Protokol (UDP) dan ditemukan bahwa **Checksum: 0x18e5 [unverified]**
+   ![NO 4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/68067ed2-4ce1-476b-913e-6be6be7fc726)
 
 - Flag:
-  
-![NC NO 4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/56716c07-4227-4ae4-8de5-42e113708848)
+
+  ![NC NO 4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/56716c07-4227-4ae4-8de5-42e113708848)
 
 ## NO 5
 5. - Sebelum mengerjakan soalnya, kita perlu mencari tahu nc nya terlebih dahulu, yaitu dengan mengecek pada file pcap. Pada packet no 14 terdapat info mengenai “pass”.
@@ -128,6 +129,7 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
    Ada 3 jenis IP yang diketahui yaitu 10.10.1.4, 192.168.1.1, dan 74.53.140.153. private IP umumnya diawali dengan 10.XX.X.X, 10.x.x.x, 172.16.x.x - 172.31.x.x, atau 192.168.x.x. dan public IP cenderung lebih unik daripada private IP sehingga yang merupakan public IP adalah 74.53.140.153.
 
 - Flag
+  ![image](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/2a1ba031-8397-478c-8493-d278c755681b)
 
 ## NO 6
 6. - Jika dilihat pada soal, ada kejanggalan pada huruf besar di beberapa kata, yaitu:
