@@ -198,6 +198,11 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
     ![NC NO 9](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/dcb37c8c-8860-4d0b-bb7d-494599730621)
 
 ## NO 10
+10. Menggunakan display filter **telnet** pada wireshark
+    d
+    d
+- Flag
+  ![image](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/8285d00a-97e3-4e67-ac18-bd8741855d39)
 
 # Kendala
 Pada saat praktikum belum bisa menemukan penyelesaian untuk soal nomor 6 dan kendala jaringan yang sangat jelek karena VPN sehingga lama ketika ingin mengunduh file.
