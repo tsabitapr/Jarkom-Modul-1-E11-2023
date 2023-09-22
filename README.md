@@ -63,6 +63,16 @@ Laporan resmi praktikum Jaringan Komputer modul 1 kelompok E11
         ![NC NO 1](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/80d386cd-fa9a-4d66-ae9b-8701884ba259)
 
 ## NO 2
+2. Menggunakan display filter **http contains “web”** pada display filter wireshark
+   ![1](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/7e83287b-c57c-4df7-a864-c55040bc37d4)
+
+   Memilih salah satu paket lalu follow UTP Stream. Didapatkan hasil **Server: gunicorn**
+   ![2](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/f3c0c6f2-b85e-41bd-b246-a5e19f41a5ed)
+   ![3](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/77332553-3fe3-4dd8-b947-8487e01255fa)
+
+- Flag:
+  ![4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/5673442b-f55b-4435-b056-59cbb71a1506)
+
 
 ## NO 3
 3.a. 
