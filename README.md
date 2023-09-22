@@ -92,8 +92,8 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
     ![NC NO 3](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/f5014b73-3482-474c-9401-df20d73fc746)
 
 ## NO 4
-4. 
-    
+4. Mencari paket nomor 130 menggunakan display filter **frame.number == 130**
+   Cek User Diagram Protokol (UDP) dan ditemukan bahwa **Checksum: 0x18e5 [unverified]**   
 ![NO 4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/114993457/68067ed2-4ce1-476b-913e-6be6be7fc726)
 
 - Flag:
