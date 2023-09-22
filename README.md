@@ -184,11 +184,8 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
    ![1](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/81ef9a24-b57d-482f-97ca-728333af10ff)
 
 - Flag
-  ![image](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/b706e1b4-4c70-4cce-901e-5e6ef5922c65)
+  ![3](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/604d121f-2a2d-4f95-9a9b-a00e462899ee)
   
-
-  
-
 ## NO 9
 9. Gunakan display capture **ip.src == 10.51.40.1 && ip.dst != 10.39.55.34** sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34.
     
@@ -199,10 +196,23 @@ Kemudian gunakan display filter **ip.addr == 239.255.255.250 && udp.port == 3702
 
 ## NO 10
 10. Menggunakan display filter **telnet** pada wireshark
-    d
-    d
+    ![1](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/12d4dac1-731d-4595-964f-7356d8345858)
+    
+    Follow satu per satu paket sampai menemui adanya username dan password
+    - Misal pada paket ke 77. Terlihat tidak ada username dan password, berarti bukan kredensial yang benar
+      ![2](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/7910bfa0-5094-4151-9c16-26c7a6ca75fd)
+    - Misal pada paket ke 197. Masih tidak terlihat adanya username dan password
+      ![3](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/a2b3754a-b822-4121-959e-f782bc7a09fc)
+    - Misal pada paket ke 227. Terlihat ada username dan password (kredensial)
+      ![4](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/de5f9c2c-259a-4419-97a8-5c2ce02053d9)
+   
+    Memasukkan jawaban username dan password dengan melakukan penghapusan karakter pada username **ddhhaaffiinn** menjadi **dhafin**
+    
 - Flag
-  ![image](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/8285d00a-97e3-4e67-ac18-bd8741855d39)
+  ![image](https://github.com/tsabitapr/Jarkom-Modul-1-E11-2023/assets/93377643/ec2f38cb-b3e2-4a61-9a77-9ecb0b4f6c6a)
 
 # Kendala
-Pada saat praktikum belum bisa menemukan penyelesaian untuk soal nomor 6 dan kendala jaringan yang sangat jelek karena VPN sehingga lama ketika ingin mengunduh file.
+- Pada saat praktikum belum bisa menemukan penyelesaian untuk soal nomor 6
+- Kendala jaringan yang sangat jelek karena VPN sehingga lama ketika ingin mengunduh file
+- Berkali-kali salah menjawab karena penulisan yang salah pada soal nomor 8 **(or menjadi ||)**
+- Salah menjawab nomor 10 karena username belum dilakukan penghapusan karakter **(ddhhaaffiinn menjadi dhafin)**
