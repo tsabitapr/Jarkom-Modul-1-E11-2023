@@ -32,4 +32,4 @@ Laporan resmi praktikum Jaringan Komputer modul 1 kelompok E11
 10. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
 
 # Jawaban
-
+1.
